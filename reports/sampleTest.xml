@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="sampleTest"
+    errors="1" failures="0" hostname="" id="" package="sampleTest" skipped="0"
+    tests="1" time="0.01900" timestamp="Thu, 06 Apr 2017 23:40:11 GMT">
+  
+    <testcase name="SampleTest" classname="sampleTest" time="0.01900" assertions="0">
+    </testcase>
+      <system-err>
+          Error while running [Sample Test / SampleTest]:
+
+  ReferenceError: setValue is not defined
+    at Object.SampleTest (/Users/john/NodeApps/nightwatchDemo/tests/sampleTest.js:21:7)
+    at Module.call (/Users/john/NodeApps/nightwatchDemo/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /Users/john/NodeApps/nightwatchDemo/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/Users/john/NodeApps/nightwatchDemo/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/Users/john/NodeApps/nightwatchDemo/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/Users/john/NodeApps/nightwatchDemo/node_modules/q/q.js:796:13)
+    at /Users/john/NodeApps/nightwatchDemo/node_modules/q/q.js:556:49
+    at runSingle (/Users/john/NodeApps/nightwatchDemo/node_modules/q/q.js:137:13)
+    at flush (/Users/john/NodeApps/nightwatchDemo/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
